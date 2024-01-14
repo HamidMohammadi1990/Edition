@@ -4,7 +4,7 @@ namespace Edition.Domain.Enums;
 
 public enum PermissionType : int
 {
-    [Display(Name = "الو چاپ")]
+    [Display(Name = "عنوان پروژه")]
     Product = 1,
 
     [Display(Name = "مدیریت کاربران")]
