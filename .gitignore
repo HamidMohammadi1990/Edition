@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Edition
+/src/Infrastructure/Edition.Infrastructure/obj
+/src/Core/Edition.Application/obj
+/src/Cross-Cutting/Edition.Common/obj/Debug/net8.0
+/src/Presentation/Edition.Api/obj
+/src/Presentation/Edition.WebFramework/obj
+/src/Infrastructure/Edition.Infrastructure.Persistence/obj
+/src/Cross-Cutting/Edition.Common/obj
+/src/Core/Edition.Domain/obj
