@@ -17,8 +17,7 @@ public class CleanStringPropertyInterceptor : SaveChangesInterceptor
         {
             if (item.Entity == null)
                 continue;
-
-            // test
+            
             var properties = item.Entity.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance)
                 .Where(p => p.CanRead && p.CanWrite && p.PropertyType == typeof(string));
 
